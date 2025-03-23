@@ -17,7 +17,7 @@ public class FaceBookApp {
 	public void openBrowser(String url) {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(45));
 		driver.get(url);
 	}
 

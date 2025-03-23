@@ -14,7 +14,7 @@ public class ElementInterations {
 	public void openBrowser() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(45));
 		driver.get("https://playground.intellectsoftwareacademy.com/send_keys");
 	}
 	
